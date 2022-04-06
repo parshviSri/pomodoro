@@ -1,0 +1,51 @@
+.card{
+    border:2px solid black;
+    text-align: center;
+    width:30%;
+    height:30%;
+    position: fixed;
+    top:10%;
+    left: 20%;
+    padding: 50px;
+}
+.element{
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.element__colon{
+    margin: 10px;
+
+}
+.element__time{
+    margin: 10px;
+    border:2px solid;
+    padding: 10px;
+}
+.button{
+    margin:10px;
+    border-radius:25px;
+    font-size:12px;
+    padding: 25px;
+}
+.button__start{
+    border:2px solid green;
+    background-color: rgb(136, 255, 0);
+}
+.button__start:hover ,:active{
+    background-color: green
+
+}
+.button__stop{
+    border:2px solid red;
+    background-color: rgb(196, 87, 87);
+    color:white
+}
+.button__stop:hover, :active{
+    background-color: red
+
+}
+.button__reset{
+   border:2px solid black;
+}
